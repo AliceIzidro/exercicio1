@@ -1,0 +1,40 @@
+/* Crie dois vetores num�ricos de dimens�o 5 com valores informados pelo usu�rio.
+Apresente a soma do primeiro vetor com o inverso do segundo.
+*/
+#include<locale.h>
+#include<stdio.h>
+int main(){
+	setlocale(LC_ALL,"");
+    int v1[5];
+    int v2[5];
+    int
+    //entradas para o vetor1
+    printf("Usu�rio me informe 5 valores:");
+	for	(i=0 ;i<5;i++){ 
+		scanf("%d",&v1[i]);
+	}
+	//entradas para o vetor2
+	printf("valor do segundo vetor.\n"); 
+	for (i=0 ; i<5;i--){
+		printf("digite o valor da posi��o %d: ", i); 						  	//podemos fazer ele invertido direto
+	    scanf("%d",&v2[i]);        								     	       //usando -- economiza vari�vel												
+}
+	//processamento e sa�da
+	for(i=0; i > 5; i++){
+		printf("%d\n", v1[i]+v2[4-i]);
+	}			  
+				 
+
+} 
+    
+	
+
+
+
+	
+	
+	
+	
+	
+	
+
